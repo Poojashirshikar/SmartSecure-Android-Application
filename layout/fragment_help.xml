@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Help">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/baseline_emergency_24" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You can use the application in emergency situation(i.e,harassment situations, medical emergency,etc)."
+        android:textSize="15dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="110dp"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/baseline_location_on_24" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You needs to on the location service from settings."
+        android:textSize="15dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="110dp"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/baseline_settings_voice_24" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You needs to set voice commands or you can use predefined commands and use them in emergency(i.e,call to parent,call to doctor,etc)."
+         android:textSize="15dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="110dp"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/baseline_contact_emergency_24" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You need to set emergency contact details."
+        android:textSize="15dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="110dp"/>
+
+
+</FrameLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FeaturesFragment">
+
+    <include layout="@layout/toolbar2"/>
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="60dp"
+        android:text="Voice Recognition"
+        app:icon="@drawable/baseline_settings_voice_24"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="70dp"
+        android:text="Location "
+        app:icon="@drawable/baseline_location_on_24"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="70dp"
+        android:text="Message Service"
+        app:icon="@drawable/baseline_message_24"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="70dp"
+        android:text="Demo"
+        app:icon="@drawable/baseline_ondemand_video_24"
+        android:textSize="20dp" />
+
+
+</FrameLayout>

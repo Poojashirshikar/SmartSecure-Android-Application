@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/frameLayout"
+    android:orientation="vertical"
+    tools:context=".YourInfoFragment">
+
+    <include layout="@layout/toolbar2"/>
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emergency Info"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="70dp"
+        android:text="Personal Info"
+        app:icon="@drawable/baseline_person_24"
+        android:textSize="20dp"
+        android:id="@+id/secondActivityButton" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="70dp"
+        android:textSize="20dp"
+        android:text="Login"
+        app:icon="@drawable/baseline_login_24"
+        android:id="@+id/thirdActivityButton"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="350dp"
+        android:background="@android:color/darker_gray"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help and Support"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="380dp"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="70dp"
+        android:text="Demos"
+        android:textSize="20dp"
+        app:icon="@drawable/baseline_ondemand_video_24"
+        android:id="@+id/fifthActivityButton"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="70dp"
+        android:text="Help"
+        android:textSize="20dp"
+        app:icon="@drawable/baseline_help_24"
+        android:id="@+id/SixActivityButton"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="630dp"
+        android:layout_marginLeft="70dp"
+        android:text="Send Feedback"
+        app:icon="@drawable/baseline_feedback_24"
+        android:textSize="20dp"
+        android:id="@+id/SevenActivityButton"/>
+
+
+</FrameLayout>

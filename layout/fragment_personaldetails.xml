@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/personal"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".personaldetails">
+
+    <!-- TODO: Update blank fragment layout -->
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/tabModeimageview"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/person" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="100dp"
+        android:hint="Enter Name "
+        />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Enter Phone Number"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="100dp"/>
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Enter Email"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="100dp"/>
+
+    <EditText
+        android:id="@+id/editTextTextHomeLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Enter Home Location"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="100dp"/>
+
+    <EditText
+        android:id="@+id/editTextTextWorkLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Enter Work Location"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="100dp"/>
+
+    <Button
+        android:id="@+id/savebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="600dp"
+        android:text="Save"
+        android:onClick="addRecord"/>
+
+
+</FrameLayout>
+    </ScrollView>
+

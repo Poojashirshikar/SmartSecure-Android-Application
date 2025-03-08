@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Location">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="240dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/location" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The current location features shares users live location via SMS user must turn on location service and system will send location when voice command is generated."
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:justificationMode="inter_word"
+        android:layout_marginTop="400dp"/>
+
+
+
+
+
+
+</FrameLayout>
